@@ -1,0 +1,18 @@
+/* globals.css - Tailwind base + a couple of custom vars (imported by _app.js) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens */
+:root{
+  --bg: #F0F1F7;
+  --card: #ffffff;
+  --accent: #5B5FC7;
+  --muted: #6B7280;
+  --success: #10B981;
+  --danger: #EF4444;
+  --card-shadow: 0 10px 40px rgba(15,23,42,0.06);
+}
+
+/* small helper */
+.scrollbar-x { scrollbar-width: thin; scrollbar-color: rgba(0,0,0,0.12) transparent; }
